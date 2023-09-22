@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Navbar.jsx", "pages/_app.tsx", "pages/index.tsx", "hooks/useLivePeer.js", "components/StreamNow.jsx", "components/Upload.tsx", "components/IPFS.jsx", "components/Upload.tsx", "components/Dashboard.jsx", "components/Uploading.tsx"],
+  "exclude": ["node_modules"]
+}
